@@ -1,6 +1,6 @@
 import flatpickr from 'flatpickr';
 import iziToast from 'izitoast';
-import iconError from '/img/error.svg';
+// import iconError from '/img/error.svg';
 
 const startButton = document.querySelector('button[data-start]');
 const dateTimePicker = document.getElementById('datetime-picker');
@@ -26,7 +26,7 @@ const options = {
         backgroundColor: 'red',
         messageColor: 'white',
         timeout: 5000,
-        iconUrl: iconError,
+        // iconUrl: iconError,
         message: 'Please choose a date in the future',
       });
       startButton.disabled = true;
