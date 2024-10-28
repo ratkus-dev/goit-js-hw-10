@@ -1,5 +1,5 @@
 import iziToast from 'izitoast';
-import iconOk from '/img/ok.svg';
+// import iconOk from '/img/ok.svg';
 import iconError from '/img/error.svg';
 
 document.querySelector('.form').addEventListener('submit', event => {
@@ -26,7 +26,7 @@ document.querySelector('.form').addEventListener('submit', event => {
         backgroundColor: 'green',
         messageColor: 'white',
         title: 'OK',
-        iconUrl: iconOk,
+        // iconUrl: iconOk,
         message: `Fulfilled promise in ${delay}ms`,
       });
     })
